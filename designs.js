@@ -10,7 +10,7 @@ const formSize = document.querySelector('#sizePicker')
     
 
 
-
+// When size is submitted by the user, call makeGrid()
 formSize.addEventListener('click', function(event) {
     event.preventDefault();
 
@@ -19,14 +19,8 @@ formSize.addEventListener('click', function(event) {
 
     table.innerHTML = null;    
     makeGrid(height, width);
-});    
+});
 
-
-
-
-
-
-// When size is submitted by the user, call makeGrid()
 // Your code goes here!
 
 function makeGrid(height, width) {
