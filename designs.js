@@ -3,13 +3,13 @@ const color = document.querySelector('#colorPicker');
 const table = document.querySelector('#pixelCanvas');
 // Select size input
 const formSize = document.querySelector('#sizePicker')
-//I want to see if this shows up in my git
+//I want to see if this shows up in my git    
 
 
 // When size is submitted by the user, call makeGrid()
 formSize.addEventListener('click', function(event) {
     event.preventDefault();
-
+    
     const height = document.querySelector('#inputHeight').value;
     const width = document.querySelector('#inputWidth').value;
 //got this snipet of code from udacity knowledge base
